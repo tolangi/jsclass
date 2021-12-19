@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <pre>
+        Array -> collection of homogenous data of array contain more then one value
+        eg:
+        array_name=[Value,1value2........]
+        <script>
+            const fruits=['mango','apple','tomato','banana','lemon']
+            document.write(`${fruits} <br>`)
+            document.write(`${fruits[0]} <br>`)
+            // count the length of array
+            document.write(`${fruits.length} <br>`)
+            //pop() --> removes last element
+            fruits.pop
+            document.write(`${fruits} <br>`)
+            //push()-> add array element at last position
+            fruits.push('cherry')
+            document.write(`${fruits}<br>`)
+            //shift()->remove first array element
+            //unshift()-> adda ray element at first position
+            fruits.shift()
+            document.write(`${fruits}<br>`)
+            fruits.unshift('orange')
+            document.write(`${fruits}`)
+
+            //splice
+
+            fruits.splice(2,3)
+            document.write(`${fruits} <br>`)
+            fruits.splice(2,0,'graps','kiwi','pineapple')
+            document.write(`${fruits}<br>`)
+
+            //ascending order -> sort
+            fruits.sort()
+            document.write(`${fruits}<br>`)
+
+            //reverse
+
+            fruits.reverse()
+            document.write(`${fruits}<br>`)
+
+        </script>
+    </pre>
+    
+</body>
+</html>
